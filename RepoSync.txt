@@ -1,0 +1,13 @@
+Repo Sync​
+
+-d/--detach: switch projects back to the manifest revision​. In case any project is not pointing to the manifest's revision​
+
+-u/--manifest:-server-username and -p/--manifest-server-password
+
+--force-sync: option can be used to overwrite existing git directories if they have previously been linked to a different object directory
+
+--no-clone-bundle: disables any attempt to use $URL/clone.bundle to bootstrap a new Git repository from a resumeable bundle
+
+--force-remove-dirty: option can be used to remove previously used projects with uncommitted changes.
+
+-c/--current-branch: option can be used to only fetch objects that are on the branch specified by a project's revision.
